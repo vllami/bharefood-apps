@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Bharefood" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/primary</item>
+        <!-- No action bar. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Bharefood.WhiteStatusBar">
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Bharefood.PrimaryStatusBar">
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.Bharefood.DarkGrayCursorPointer">
+        <!-- Cursor & pointer color. -->
+        <item name="colorAccent">@color/dark_gray</item>
+        <item name="colorControlActivated">@color/dark_gray</item>
+    </style>
+
+    <style name="Theme.Bharefood.EndIconMode">
+        <!-- Control Highlight color. -->
+        <item name="colorControlHighlight">@color/transparent</item>
+    </style>
+</resources>
