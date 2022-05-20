@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/splash_bharefood_logo_description"
+        android:contentDescription="@string/splash_screen_bharefood_logo_description"
         android:src="@drawable/splash_screen_bharefood_pictorialmark_wordmark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
