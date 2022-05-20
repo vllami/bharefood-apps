@@ -10,4 +10,21 @@
     <string name="onboarding_log_in_button">Masuk</string>
     <string name="onboarding_sign_up_button">Saya pengguna baru, Buat Akun</string>
     <string name="onboarding_copyright">Aplikasi ini adalah properti milik <b>Villa Mukti Indriyanto (201810225048)</b> untuk tujuan penyelesaian tugas akhir <b>(Skripsi)</b> jenjang Strata-1.</string>
+
+    <string name="sign_up_title">Buat Akun</string>
+    <string name="sign_up_guide">Silakan lengkapi data di bawah ini.</string>
+    <string name="sign_up_full_name_input">Nama Lengkap</string>
+    <string name="sign_up_email_input">Email</string>
+    <string name="sign_up_password_input">Password</string>
+    <string name="sign_up_log_in_question">Punya akun?</string>
+    <string name="sign_up_log_in_text_button">Masuk</string>
+
+    <string name="log_in_title">Masuk</string>
+    <string name="log_in_guide">Silakan masukkan data yang telah terdaftar.</string>
+    <string name="log_in_email_input">Email</string>
+    <string name="log_in_password_input">Password</string>
+    <string name="log_in_checkbox_text">Saya ingin tetap masuk</string>
+    <string name="log_in_sign_up_question">Pengguna baru?</string>
+    <string name="log_in_sign_up_text_button">Daftar</string>
+    <string name="log_in_forgot_password">Lupa password?</string>
 </resources>

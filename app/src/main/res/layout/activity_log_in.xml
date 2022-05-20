@@ -4,6 +4,205 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".LogInActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_log_in"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/all_arrow_back_default" />
+
+    <TextView
+        android:id="@+id/tv_log_in_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:fontFamily="@font/notosansjp_bold"
+        android:includeFontPadding="false"
+        android:text="@string/log_in_title"
+        android:textColor="@color/dark_gray"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_log_in" />
+
+    <TextView
+        android:id="@+id/tv_log_in_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17.5dp"
+        android:layout_marginTop="4.5dp"
+        android:fontFamily="@font/notosansjp_regular"
+        android:includeFontPadding="false"
+        android:text="@string/log_in_guide"
+        android:textColor="@color/dark_gray"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_log_in_title" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_log_in_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginTop="18dp"
+        android:hint="@string/log_in_email_input"
+        android:paddingStart="0dp"
+        android:paddingEnd="-9dp"
+        android:theme="@style/Theme.Bharefood.EndIconMode"
+        app:boxBackgroundColor="@color/transparent"
+        app:boxCollapsedPaddingTop="0dp"
+        app:endIconDrawable="@drawable/ic_clear"
+        app:endIconMode="clear_text"
+        app:expandedHintEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_log_in_guide">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_log_in_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/notosansjp_medium"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:includeFontPadding="false"
+            android:inputType="textNoSuggestions|textEmailAddress"
+            android:nextFocusDown="@id/et_log_in_password"
+            android:paddingStart="0dp"
+            android:paddingTop="27.5dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="9dp"
+            android:singleLine="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="15sp">
+
+            <requestFocus />
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_log_in_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:hint="@string/log_in_password_input"
+        android:paddingStart="0dp"
+        android:paddingEnd="-9dp"
+        android:theme="@style/Theme.Bharefood.EndIconMode"
+        app:boxBackgroundColor="@color/transparent"
+        app:boxCollapsedPaddingTop="0dp"
+        app:endIconDrawable="@drawable/ic_eye"
+        app:endIconMode="password_toggle"
+        app:expandedHintEnabled="false"
+        app:layout_constraintEnd_toEndOf="@+id/til_log_in_email"
+        app:layout_constraintStart_toStartOf="@+id/til_log_in_email"
+        app:layout_constraintTop_toBottomOf="@+id/til_log_in_email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_log_in_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/notosansjp_medium"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:includeFontPadding="false"
+            android:inputType="textNoSuggestions|textPassword"
+            android:paddingStart="0dp"
+            android:paddingTop="27.5dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="9dp"
+            android:singleLine="true"
+            android:textColor="@color/dark_gray"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_log_in_sign_up_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17.5dp"
+        android:layout_marginBottom="-4dp"
+        android:fontFamily="@font/notosansjp_regular"
+        android:gravity="end"
+        android:includeFontPadding="false"
+        android:text="@string/log_in_sign_up_question"
+        android:textColor="@color/dark_gray"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_log_in"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_log_in_sign_up_text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="17dp"
+        android:fontFamily="@font/notosansjp_bold"
+        android:gravity="end"
+        android:includeFontPadding="false"
+        android:text="@string/log_in_sign_up_text_button"
+        android:textColor="@color/primary"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_log_in_sign_up_question"
+        app:layout_constraintStart_toEndOf="@+id/tv_log_in_sign_up_question"
+        app:layout_constraintTop_toTopOf="@+id/tv_log_in_sign_up_question" />
+
+    <TextView
+        android:id="@+id/tv_log_in_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="-1.25dp"
+        android:fontFamily="@font/notosansjp_regular"
+        android:includeFontPadding="false"
+        android:text="@string/log_in_forgot_password"
+        android:textColor="@color/dark_gray"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/til_log_in_password"
+        app:layout_constraintTop_toBottomOf="@+id/til_log_in_password" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btn_log_in"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/btn_circle_primary_background"
+        android:src="@drawable/all_arrow_in"
+        app:layout_constraintBottom_toBottomOf="@+id/cv_log_in_loading"
+        app:layout_constraintEnd_toEndOf="@+id/cv_log_in_loading"
+        app:layout_constraintStart_toStartOf="@+id/cv_log_in_loading"
+        app:layout_constraintTop_toTopOf="@+id/cv_log_in_loading" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_log_in_loading"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        android:clickable="false"
+        android:visibility="invisible"
+        app:cardBackgroundColor="@color/primary"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ProgressBar
+            android:layout_width="24.5dp"
+            android:layout_height="24.5dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/white" />
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
