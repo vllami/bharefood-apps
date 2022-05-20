@@ -34,10 +34,10 @@ class ForgotPasswordActivity : AppCompatActivity() {
                 }
             }
 
-            showControl(false)
+            showProgress(false)
 
             btnForgotPassword.setOnClickListener {
-                showControl(true)
+                showProgress(true)
 
                 Snackbar.make(it, getString(R.string.forgot_password_snackbar), Snackbar.LENGTH_LONG).apply {
                     anchorView = it
@@ -54,7 +54,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
         }
     }
 
-    private fun showControl(state: Boolean) {
+    private fun showProgress(state: Boolean) {
         activityForgotPasswordBinding.apply {
             when {
                 state -> {
