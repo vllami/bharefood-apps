@@ -2,4 +2,12 @@
     <string name="app_name">Bharefood</string>
 
     <string name="splash_screen_bharefood_logo_description">Logo Bharefood Pictorialmark dan Wordmark</string>
+
+    <string name="onboarding_bharefood_logo_description">Logo Bharefood Wordmark</string>
+    <string name="onboarding_bharefood_illustration_description">Ilustrasi Sistem Aplikasi Bharefood</string>
+    <string name="onboarding_greetings_title">Selamat Datang di Bharefood!</string>
+    <string name="onboarding_greetings_subtitle">Mau pesen makan, minum, cemilan, atau apapun yang ada di Kantin? Sekarang ga perlu lagi khawatir antri!</string>
+    <string name="onboarding_log_in_button">Masuk</string>
+    <string name="onboarding_sign_up_button">Saya pengguna baru, Buat Akun</string>
+    <string name="onboarding_copyright">Aplikasi ini adalah properti milik <b>Villa Mukti Indriyanto (201810225048)</b> untuk tujuan penyelesaian tugas akhir <b>(Skripsi)</b> jenjang Strata-1.</string>
 </resources>

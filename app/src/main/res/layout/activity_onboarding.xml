@@ -4,6 +4,116 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".OnboardingActivity">
+
+    <ImageView
+        android:id="@+id/iv_onboarding_logo"
+        android:layout_width="120dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="@string/onboarding_bharefood_logo_description"
+        android:src="@drawable/all_bharefood_wordmark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_onboarding_illustration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/onboarding_bharefood_illustration_description"
+        android:src="@drawable/onboarding_illustration"
+        app:layout_constraintBottom_toTopOf="@+id/tv_onboarding_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_onboarding_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/notosansjp_bold"
+        android:includeFontPadding="false"
+        android:text="@string/onboarding_greetings_title"
+        android:textColor="@color/dark_gray"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_onboarding_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/iv_onboarding_logo" />
+
+    <TextView
+        android:id="@+id/tv_onboarding_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/notosansjp_light"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="1.75dp"
+        android:text="@string/onboarding_greetings_subtitle"
+        android:textColor="@color/dark_gray"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_onboarding_log_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_onboarding_title" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_onboarding_log_in"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/btn_blunt_primary_background"
+        android:fontFamily="@font/notosansjp_regular"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.020"
+        android:paddingBottom="1dp"
+        android:text="@string/onboarding_log_in_button"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_onboarding_sign_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_onboarding_sign_up"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/btn_blunt_secondary_background"
+        android:fontFamily="@font/notosansjp_regular"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.020"
+        android:paddingBottom="1.5dp"
+        android:text="@string/onboarding_sign_up_button"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@drawable/btn_blunt_secondary_background"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_onboarding_copyright"
+        app:layout_constraintEnd_toEndOf="@+id/btn_onboarding_log_in"
+        app:layout_constraintStart_toStartOf="@+id/btn_onboarding_log_in" />
+
+    <TextView
+        android:id="@+id/tv_onboarding_copyright"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/notosansjp_light"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="2dp"
+        android:text="@string/onboarding_copyright"
+        android:textColor="@color/dark_gray"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_onboarding_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/tv_onboarding_subtitle"
+        tools:ignore="SmallSp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
