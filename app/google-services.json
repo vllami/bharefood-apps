@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "283034248233",
+    "project_id": "bharefood",
+    "storage_bucket": "bharefood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283034248233:android:4c8713f45d2b2f616b2838",
+        "android_client_info": {
+          "package_name": "com.villa.thesis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283034248233-7129q0vq4c9b6t49870ouu9p9agldhgh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.villa.thesis",
+            "certificate_hash": "bba9d0f4cc3a5b4d7a9587480826befd037b1d8d"
+          }
+        },
+        {
+          "client_id": "283034248233-rnhtoi77dqurckqar7ebi8errf73cfiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1kbvXBuQdqv5kvrO6tVDVOZ5alM1rfJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283034248233-rnhtoi77dqurckqar7ebi8errf73cfiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
