@@ -42,10 +42,10 @@ class SignUpActivity : AppCompatActivity() {
                 }
             }
 
-            showControl(false)
+            showProgress(false)
 
             btnSignUp.setOnClickListener {
-                showControl(true)
+                showProgress(true)
 
                 Intent(this@SignUpActivity, HomeActivity::class.java).also { fromSignUpToHome ->
                     fromSignUpToHome.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
@@ -57,7 +57,7 @@ class SignUpActivity : AppCompatActivity() {
         }
     }
 
-    private fun showControl(state: Boolean) {
+    private fun showProgress(state: Boolean) {
         activitySignUpBinding.apply {
             when {
                 state -> {
