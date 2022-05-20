@@ -34,18 +34,9 @@ class SignUpActivity : AppCompatActivity() {
             }
 
             tvSignUpLogInTextButton.setOnClickListener {
-                Intent(this@SignUpActivity, LogInActivity::class.java).also { toLogIn ->
-                    toLogIn.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
-                    startActivity(toLogIn)
-
-                    finish()
-                }
-            }
-
-            btnSignUp.setOnClickListener {
-                Intent(this@SignUpActivity, HomeActivity::class.java).also { toHome ->
-                    toHome.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                    startActivity(toHome)
+                Intent(this@SignUpActivity, LogInActivity::class.java).also { fromSignUpToLogIn ->
+                    fromSignUpToLogIn.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+                    startActivity(fromSignUpToLogIn)
 
                     finish()
                 }
@@ -56,9 +47,9 @@ class SignUpActivity : AppCompatActivity() {
             btnSignUp.setOnClickListener {
                 showControl(true)
 
-                Intent(this@SignUpActivity, HomeActivity::class.java).also { toHome ->
-                    toHome.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                    startActivity(toHome)
+                Intent(this@SignUpActivity, HomeActivity::class.java).also { fromSignUpToHome ->
+                    fromSignUpToHome.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                    startActivity(fromSignUpToHome)
 
                     finish()
                 }
