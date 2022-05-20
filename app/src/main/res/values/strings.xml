@@ -27,4 +27,11 @@
     <string name="log_in_sign_up_question">Pengguna baru?</string>
     <string name="log_in_sign_up_text_button">Daftar</string>
     <string name="log_in_forgot_password">Lupa password?</string>
+
+    <string name="forgot_password_title">Lupa Password</string>
+    <string name="forgot_password_guide">Silakan masukkan Email yang telah terdaftar.</string>
+    <string name="forgot_password_email_input">Email</string>
+    <string name="forgot_password_process_button">Proses</string>
+    <string name="forgot_password_snackbar">Silakan cek email yang Anda masukkan di atas.</string>
+    <string name="forgot_password_snackbar_action">Oke</string>
 </resources>

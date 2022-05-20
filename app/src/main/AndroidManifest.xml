@@ -48,6 +48,7 @@
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Bharefood.WhiteStatusBar"
+            android:windowSoftInputMode="adjustResize"
             tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".HomeActivity"
