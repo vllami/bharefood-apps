@@ -1,8 +1,10 @@
-package com.villa.thesis
+package com.villa.thesis.ui.start
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.villa.thesis.ui.auth.LogInActivity
+import com.villa.thesis.ui.auth.SignUpActivity
 import com.villa.thesis.databinding.ActivityOnboardingBinding
 
 class OnboardingActivity : AppCompatActivity() {

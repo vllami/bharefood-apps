@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Bharefood"
         tools:targetApi="31">
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".ui.start.SplashScreenActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Bharefood.WhiteStatusBar"
@@ -26,27 +26,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".OnboardingActivity"
+            android:name=".ui.start.OnboardingActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Bharefood.WhiteStatusBar"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".SignUpActivity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.Bharefood.WhiteStatusBar"
-            android:windowSoftInputMode="adjustResize"
-            tools:ignore="LockedOrientationActivity" />
-        <activity
-            android:name=".LogInActivity"
+            android:name=".ui.auth.SignUpActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Bharefood.WhiteStatusBar"
             android:windowSoftInputMode="adjustResize"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".ForgotPasswordActivity"
+            android:name=".ui.auth.LogInActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Bharefood.WhiteStatusBar"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ui.auth.ForgotPasswordActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Bharefood.WhiteStatusBar"

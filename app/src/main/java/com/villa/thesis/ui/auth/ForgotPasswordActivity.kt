@@ -1,4 +1,4 @@
-package com.villa.thesis
+package com.villa.thesis.ui.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
+import com.villa.thesis.R
 import com.villa.thesis.databinding.ActivityForgotPasswordBinding
 
 class ForgotPasswordActivity : AppCompatActivity() {

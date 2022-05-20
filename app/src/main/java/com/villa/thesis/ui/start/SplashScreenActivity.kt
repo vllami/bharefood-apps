@@ -1,4 +1,4 @@
-package com.villa.thesis
+package com.villa.thesis.ui.start
 
 import android.annotation.SuppressLint
 import android.content.Intent

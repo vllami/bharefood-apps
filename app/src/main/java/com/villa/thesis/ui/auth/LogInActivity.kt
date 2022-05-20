@@ -1,10 +1,11 @@
-package com.villa.thesis
+package com.villa.thesis.ui.auth
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.EditorInfo
+import com.villa.thesis.HomeActivity
 import com.villa.thesis.databinding.ActivityLogInBinding
 
 class LogInActivity : AppCompatActivity() {
