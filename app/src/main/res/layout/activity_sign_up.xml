@@ -48,9 +48,9 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="18dp"
         android:layout_marginTop="18dp"
-        android:hint="@string/sign_up_full_name_input"
+        android:hint="@string/sign_up_full_name_container"
         android:paddingStart="0dp"
-        android:paddingEnd="-9dp"
+        android:paddingEnd="-9.25dp"
         android:theme="@style/Theme.Bharefood.EndIconMode"
         app:boxBackgroundColor="@color/transparent"
         app:boxCollapsedPaddingTop="0dp"
@@ -70,6 +70,7 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:fontFamily="@font/notosansjp_medium"
+            android:hint="@string/sign_up_full_name_hint"
             android:imeOptions="actionNext"
             android:importantForAutofill="no"
             android:includeFontPadding="false"
@@ -81,6 +82,7 @@
             android:paddingBottom="9dp"
             android:singleLine="true"
             android:textColor="@color/dark_gray"
+            android:textColorHint="@color/gray"
             android:textSize="15sp">
 
             <requestFocus />
@@ -93,9 +95,9 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="18dp"
         android:layout_marginTop="18dp"
-        android:hint="@string/sign_up_email_input"
+        android:hint="@string/sign_up_email_container"
         android:paddingStart="0dp"
-        android:paddingEnd="-9dp"
+        android:paddingEnd="-9.25dp"
         android:theme="@style/Theme.Bharefood.EndIconMode"
         app:boxBackgroundColor="@color/transparent"
         app:boxCollapsedPaddingTop="0dp"
@@ -115,6 +117,7 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:fontFamily="@font/notosansjp_medium"
+            android:hint="@string/sign_up_email_hint"
             android:imeOptions="actionNext"
             android:importantForAutofill="no"
             android:includeFontPadding="false"
@@ -126,6 +129,7 @@
             android:paddingBottom="9dp"
             android:singleLine="true"
             android:textColor="@color/dark_gray"
+            android:textColorHint="@color/gray"
             android:textSize="15sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -134,9 +138,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:hint="@string/sign_up_password_input"
+        android:hint="@string/sign_up_password_container"
         android:paddingStart="0dp"
-        android:paddingEnd="-9dp"
+        android:paddingEnd="-11dp"
         android:theme="@style/Theme.Bharefood.EndIconMode"
         app:boxBackgroundColor="@color/transparent"
         app:boxCollapsedPaddingTop="0dp"
@@ -156,6 +160,7 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:fontFamily="@font/notosansjp_medium"
+            android:hint="@string/sign_up_password_hint"
             android:imeOptions="actionDone"
             android:importantForAutofill="no"
             android:includeFontPadding="false"
@@ -166,6 +171,7 @@
             android:paddingBottom="9dp"
             android:singleLine="true"
             android:textColor="@color/dark_gray"
+            android:textColorHint="@color/gray"
             android:textSize="15sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -188,28 +194,40 @@
         android:id="@+id/tv_sign_up_log_in_text_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="4dp"
         android:layout_marginEnd="17dp"
         android:fontFamily="@font/notosansjp_bold"
         android:gravity="end"
         android:includeFontPadding="false"
         android:text="@string/sign_up_log_in_text_button"
-        android:textColor="@color/primary"
+        android:textColor="@color/txt_primary_colors"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/tv_sign_up_log_in_question"
         app:layout_constraintStart_toEndOf="@+id/tv_sign_up_log_in_question"
         app:layout_constraintTop_toTopOf="@+id/tv_sign_up_log_in_question" />
 
-    <androidx.appcompat.widget.AppCompatImageButton
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_sign_up"
         android:layout_width="52dp"
         android:layout_height="52dp"
-        android:background="@drawable/btn_circle_primary_background"
-        android:src="@drawable/all_arrow_in"
+        android:backgroundTint="@color/btn_primary_colors"
+        android:enabled="false"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:stateListAnimator="@null"
+        app:cornerRadius="1000dp"
+        app:elevation="0dp"
+        app:icon="@drawable/all_arrow_in"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconTint="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/cv_sign_up_loading"
         app:layout_constraintEnd_toEndOf="@+id/cv_sign_up_loading"
         app:layout_constraintStart_toStartOf="@+id/cv_sign_up_loading"
-        app:layout_constraintTop_toTopOf="@+id/cv_sign_up_loading" />
+        app:layout_constraintTop_toTopOf="@+id/cv_sign_up_loading"
+        app:rippleColor="@null" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_sign_up_loading"
