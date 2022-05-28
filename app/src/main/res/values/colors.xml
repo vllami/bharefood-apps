@@ -2,9 +2,12 @@
 <resources>
     <color name="dark_primary">#068322</color>
     <color name="primary">#079226</color>
+    <color name="red">#CB041A</color>
+    <color name="orange">#E57715</color>
+    <color name="very_dark_gray">#272727</color>
     <color name="dark_gray">#424242</color>
     <color name="gray">#9F9F9F</color>
-    <color name="light_gray">#F4F4F8</color>
+    <color name="light_gray">#CACACA</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="transparent">#00000000</color>
