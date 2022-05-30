@@ -11,6 +11,14 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Theme.Bharefood.Start">
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
     <style name="Theme.Bharefood.WhiteStatusBar">
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/white</item>
