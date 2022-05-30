@@ -19,7 +19,7 @@
             android:name=".ui.start.SplashScreenActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.Bharefood.WhiteStatusBar"
+            android:theme="@style/Theme.Bharefood.Start"
             tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +31,7 @@
             android:name=".ui.start.OnboardingActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.Bharefood.WhiteStatusBar"
+            android:theme="@style/Theme.Bharefood.Start"
             tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".ui.auth.SignUpActivity"
@@ -55,7 +55,7 @@
             android:windowSoftInputMode="adjustResize"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".ui.main.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Bharefood.PrimaryStatusBar"
