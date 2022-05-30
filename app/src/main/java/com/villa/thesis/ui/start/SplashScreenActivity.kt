@@ -2,11 +2,12 @@ package com.villa.thesis.ui.start
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import androidx.appcompat.app.AppCompatActivity
 import com.villa.thesis.databinding.ActivitySplashScreenBinding
+import com.villa.thesis.utils.Constants.SPLASH_DELAY
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {
@@ -26,10 +27,6 @@ class SplashScreenActivity : AppCompatActivity() {
                 finish()
             }
         }, SPLASH_DELAY.toLong())
-    }
-
-    companion object {
-        const val SPLASH_DELAY = 3_000
     }
 
 }
