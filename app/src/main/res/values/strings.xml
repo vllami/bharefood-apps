@@ -13,25 +13,42 @@
 
     <string name="sign_up_title">Buat Akun</string>
     <string name="sign_up_guide">Silakan lengkapi data di bawah ini.</string>
-    <string name="sign_up_full_name_input">Nama Lengkap</string>
-    <string name="sign_up_email_input">Email</string>
-    <string name="sign_up_password_input">Password</string>
+    <string name="sign_up_full_name_container">Nama Lengkap</string>
+    <string name="sign_up_full_name_hint">Masukkan nama Anda sesuai KTP</string>
+    <string name="sign_up_email_container">Email</string>
+    <string name="sign_up_email_hint">Masukkan email yang Anda gunakan</string>
+    <string name="sign_up_password_container">Password</string>
+    <string name="sign_up_password_hint">Masukkan password minimal 8 karakter</string>
     <string name="sign_up_log_in_question">Punya akun?</string>
     <string name="sign_up_log_in_text_button">Masuk</string>
+    <string name="sign_up_database_path">Users</string>
+    <string name="sign_up_no_internet_snackbar">Belum ada akses Internet nih!</string>
+    <string name="sign_up_email_already_exists_toast">Pengguna dengan email ini sudah terdaftar</string>
+    <string name="sign_up_something_wrong_toast">Terjadi kesalahan, harap coba lagi</string>
+    <string name="sign_up_success_toast">Berhasil daftar, tautan verifikasi telah dikirim ke email %1$s</string>
 
     <string name="log_in_title">Masuk</string>
     <string name="log_in_guide">Silakan masukkan data yang telah terdaftar.</string>
-    <string name="log_in_email_input">Email</string>
-    <string name="log_in_password_input">Password</string>
+    <string name="log_in_email_container">Email</string>
+    <string name="log_in_email_hint">Masukkan email Anda</string>
+    <string name="log_in_password_container">Password</string>
+    <string name="log_in_password_hint">Masukkan password Anda</string>
     <string name="log_in_checkbox_text">Saya ingin tetap masuk</string>
     <string name="log_in_sign_up_question">Pengguna baru?</string>
     <string name="log_in_sign_up_text_button">Daftar</string>
     <string name="log_in_forgot_password">Lupa password?</string>
+    <string name="log_in_no_internet_snackbar">Belum ada akses Internet nih!</string>
+    <string name="log_in_welcome_user_toast">Berhasil masuk! Selamat datang %1$s</string>
+    <string name="log_in_not_verified_toast">Email ini belum diverifikasi, harap periksa email Anda</string>
+    <string name="log_in_wrong_data_toast">Email atau password salah</string>
 
     <string name="forgot_password_title">Lupa Password</string>
-    <string name="forgot_password_guide">Silakan masukkan Email yang telah terdaftar.</string>
-    <string name="forgot_password_email_input">Email</string>
+    <string name="forgot_password_guide">Silakan masukkan email yang telah terdaftar.</string>
+    <string name="forgot_password_email_container">Email</string>
+    <string name="forgot_password_hint">Masukkan email-nya</string>
     <string name="forgot_password_process_button">Proses</string>
-    <string name="forgot_password_snackbar">Silakan cek email yang Anda masukkan di atas.</string>
-    <string name="forgot_password_snackbar_action">Oke</string>
+    <string name="forgot_password_no_internet_snackbar">Belum ada akses Internet nih!</string>
+    <string name="forgot_password_success_toast">Harap periksa email %1$s untuk mengubah password</string>
+    <string name="forgot_password_user_not_found_snackbar">Pengguna dengan email ini tidak terdaftar.</string>
+    <string name="forgot_password_not_verified_snackbar">Email ini belum diverifikasi, harap periksa email Anda</string>
 </resources>
