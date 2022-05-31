@@ -3,18 +3,61 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/all_arrow_back_default.xml" value="0.1895" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/all_arrow_in.xml" value="0.1285" />
         <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/all_bharefood_wordmark.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_blunt_primary_background.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_blunt_primary_default_background.xml" value="0.1895" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_blunt_primary_pressed_background.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_blunt_secondary_background.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_blunt_secondary_default_background.xml" value="0.1895" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_blunt_secondary_pressed_background.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_circle_background.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_circle_disable_background.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_circle_gray_background.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_circle_gray_default_background.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_circle_primary_background.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_circle_primary_default_background.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_circle_primary_pressed_background.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_disable.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_disable_background.xml" value="0.1065" />
         <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_primary_background.xml" value="0.1775" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_primary_default_background.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/btn_primary_pressed_background.xml" value="0.1895" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/home_ic_magnifying_glass.xml" value="0.19" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_cart.xml" value="0.19" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_clear.xml" value="0.1895" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_error.xml" value="0.173" />
         <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_eye.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_eye_close.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_eye_close_error.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_eye_error.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_eye_open.xml" value="0.1895" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_eye_open_error.xml" value="0.1285" />
         <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2445" />
         <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2445" />
-        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_forgot_password.xml" value="0.21351351351351353" />
-        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_home.xml" value="0.22567567567567567" />
-        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_log_in.xml" value="0.22567567567567567" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_mail.xml" value="0.173" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_success.xml" value="0.173" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/ic_user.xml" value="0.19" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/onboarding_illustration.xml" value="0.1895" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/search_white_background.xml" value="0.19" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/selector.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/splash_screen_bharefood_pictorialmark_wordmark.xml" value="0.1285" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/toast_background.xml" value="0.173" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/toast_error_background.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/toast_success_background.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/drawable/toast_warning_background.xml" value="0.1065" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_home.xml" value="0.15220179563916203" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_log_in.xml" value="0.33" />
         <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
         <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_onboarding.xml" value="0.19537037037037036" />
-        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_sign_up.xml" value="0.22567567567567567" />
-        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_splash_screen.xml" value="0.18541666666666667" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_sign_up.xml" value="0.18" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/activity_splash_screen.xml" value="0.15462962962962962" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/custom_toast.xml" value="0.5" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/toast_error.xml" value="0.15462962962962962" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/toast_success.xml" value="0.17297297297297298" />
+        <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/layout/toast_warning.xml" value="0.17297297297297298" />
         <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2445" />
         <entry key="..\:/Kuliah/Semester/Semester 8 (2022)/Skripsi/Aku/7. Aplikasi/Bharefood/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2445" />
       </map>
